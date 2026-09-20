@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PureGym — Foot traffic</title>
+
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <!-- Figma 14:1000 — LittleBusy.  Tap the circle -> 14:1069 -->
+    <div class="device">
+        <div class="screen">
+
+            <header class="header">
+                <a class="back" href="index.html" aria-label="Go back">
+                    <svg viewBox="0 0 30 30" fill="none" aria-hidden="true">
+                        <path d="M25 15H6M6 15l7-7M6 15l7 7" stroke="currentColor"
+                              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+                <img class="logo" src="assets/logo.png" alt="PureGym">
+            </header>
+
+            <main class="traffic-main">
+
+                <div class="gym-pill inert">
+                    <span class="icon icon-pin"></span>
+                    <span class="name">HORSENS CENTER</span>
+                    <svg class="chevron" viewBox="0 0 14 7" fill="none" aria-hidden="true">
+                        <path d="M1 1l6 5 6-5" stroke="currentColor"
+                              stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+                <a class="traffic-circle is-mid" href="traffic-125.html">
+                    <div class="live">
+                        <span class="live-dot"></span>live
+                    </div>
+                    <div class="count">54</div>
+                    <div class="status">a little busy</div>
+                </a>
+
+                <div class="expected">
+                    <div class="expected-title">Expected traffic</div>
+
+                    <!-- 25 bars; heights come from .bar:nth-child() in app.css.
+                         is-now marks the current hour. -->
+                    <div class="chart">
+                        <div class="bars">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar is-now"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+
+                    <div class="ticks">
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                    </div>
+
+                    <div class="time-labels">
+                        <span>6a</span>
+                        <span>9a</span>
+                        <span>12p</span>
+                        <span>3p</span>
+                        <span>6p</span>
+                        <span>9p</span>
+                        <span>12a</span>
+                    </div>
+                </div>
+
+            </main>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

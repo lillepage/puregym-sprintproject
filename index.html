@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PureGym</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <!-- Figma 1:87 — LandingPage -->
+    <div class="device">
+        <div class="screen">
+
+            <header class="header">
+                <!-- Inert. The goal screen is opened by the small gear beside
+                     "2/week" on the streak screens, not by this one. -->
+                <div class="settings inert">
+                    <span class="icon icon-gear"></span>
+                </div>
+                <img class="logo" src="assets/logo.png" alt="PureGym">
+            </header>
+
+            <main class="dashboard">
+
+                <!-- Streak -->
+                <a class="tile tile-streak" href="streak-0.html">
+                    <span class="icon icon-flame"></span>
+                    <span class="streak-count">23</span>
+                    <span class="streak-unit">weeks</span>
+                </a>
+
+                <!-- Foot traffic  -->
+                <a class="tile tile-traffic" href="traffic-23.html">
+                    <div class="centre">
+                        <span class="icon icon-pin"></span>
+                        <span>Horsens Center</span>
+                    </div>
+                    <div class="live">
+                        <span class="live-dot"></span>
+                        <span>live</span>
+                    </div>
+                    <div class="count">23</div>
+                    <div class="count-label">people<br>in gym</div>
+                </a>
+
+                <!-- Booking -->
+                <a class="tile tile-small tile-booking" href="booking.html">
+                    <span class="icon icon-calendar"></span>
+                    <span class="label">booking</span>
+                </a>
+
+
+                <div class="tile tile-small tile-find">
+                    <span class="icon icon-pin"></span>
+                    <a class="label" href="https://www.puregym.dk/find-center?gclsrc=aw.ds&gad_source=1&gad_campaignid=21455199071&gbraid=0AAAAADxI8p1xSm8RHSZy8ktOw-5kxCMQ7&gclid=CjwKCAjwiL7VBhA-EiwAhZi9ELnfHE-fHTEl8K2r07Oc8BgGGzz0VVtnp_NaTgES92-imbwt6ZYZ_RoCu78QAvD_BwE">find center</a>
+                </div>
+
+                <div class="tile tile-small tile-help">
+                    <span class="icon icon-question"></span>
+                    <a class="label" href="https://www.puregym.com/help-centre/">help</a>
+                </div>
+
+                <div class="tile tile-checkin">
+                    <a class="label" href="qr-scan.html">check-in</a>
+                    <span class="icon icon-qr"></span>
+                </div>
+
+            </main>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
